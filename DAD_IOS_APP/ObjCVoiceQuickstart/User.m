@@ -11,9 +11,12 @@
 @implementation User
 
 static User * user;
-@synthesize token;
-@synthesize userId;
-@synthesize domain;
+@synthesize userName;
+@synthesize password;
+@synthesize location;
+@synthesize age;
+@synthesize firstName;
+@synthesize lastName;
 
 +(User *)getUser{
     if(!user){

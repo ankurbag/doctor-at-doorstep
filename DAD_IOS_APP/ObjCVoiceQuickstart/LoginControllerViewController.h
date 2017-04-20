@@ -13,7 +13,7 @@
 @property (weak, nonatomic) IBOutlet UITextField *twilioIdTextField;
 @property (weak, nonatomic) IBOutlet UITextField *authorizationNameTextfield;
 @property (weak, nonatomic) IBOutlet UITextField *domainTextfield;
-
+@property (nonatomic, retain) NSMutableArray *userArray;
 @property  LoadingAnimationView *loadingAnimationView;
 - (IBAction)signIn:(id)sender;
 

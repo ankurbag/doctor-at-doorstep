@@ -23,20 +23,60 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="TwilioLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="Yv2-Ab-jqI">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="hospital-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="Yv2-Ab-jqI">
                                 <rect key="frame" x="68" y="221" width="236" height="232"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="Ro1-3D-zN6"/>
                                     <constraint firstAttribute="width" secondItem="Yv2-Ab-jqI" secondAttribute="height" multiplier="1:1" id="d66-dM-6YS"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V5R-Ky-YRW">
-                                <rect key="frame" x="120" y="491.5" width="135" height="30"/>
-                                <state key="normal" title="Place Outgoing Call"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V5R-Ky-YRW">
+                                <rect key="frame" x="114" y="477" width="145" height="61"/>
+                                <color key="backgroundColor" red="0.99522569444444442" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
+                                <color key="tintColor" red="1" green="0.1081605449" blue="0.054553225640000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="SOS">
+                                    <color key="titleColor" red="1" green="0.99983716010000001" blue="0.99994874" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="placeCall:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zc5-8L-bqN"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Location" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="Bwe-AU-Qze">
+                                <rect key="frame" x="-4" y="115" width="168" height="21"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="1" green="0.28223282849999998" blue="0.16179093629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="1" green="0.10816054489882454" blue="0.054553225637594682" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Doctor" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="u9b-w4-qam">
+                                <rect key="frame" x="186" y="143" width="189" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <color key="highlightedColor" red="1" green="0.1081605449" blue="0.054553225640000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="geocode" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="m2y-PC-5VF">
+                                <rect key="frame" x="203" y="115" width="168" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="1" green="0.28223282849999998" blue="0.16179093629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="1" green="0.1081605449" blue="0.054553225640000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="UserName" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="ECe-9a-6C5">
+                                <rect key="frame" x="73" y="72" width="231" height="35"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="1" green="0.28223282849619791" blue="0.16179093632787467" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You can call" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="Vao-TT-InK">
+                                <rect key="frame" x="29" y="144" width="129" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <color key="highlightedColor" red="1" green="0.28223282849999998" blue="0.16179093629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -52,14 +92,18 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="doclbl" destination="u9b-w4-qam" id="xri-qA-c4x"/>
+                        <outlet property="geocodelbl" destination="m2y-PC-5VF" id="cdU-pB-51w"/>
                         <outlet property="iconView" destination="Yv2-Ab-jqI" id="ZlU-AK-WTh"/>
+                        <outlet property="location" destination="Bwe-AU-Qze" id="b54-1S-NO6"/>
+                        <outlet property="name" destination="ECe-9a-6C5" id="I0x-Uq-pjx"/>
                         <outlet property="placeCallButton" destination="V5R-Ky-YRW" id="80v-ij-SXe"/>
                         <outlet property="sidebarButton" destination="BXl-vX-sxG" id="qgZ-ob-bDb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="138" y="402"/>
+            <point key="canvasLocation" x="136.80000000000001" y="400.74962518740631"/>
         </scene>
         <!--SIPster-->
         <scene sceneID="RlM-SN-gUt">
@@ -482,8 +526,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="TwilioLogo.png" width="296" height="296"/>
         <image name="comments" width="1024" height="1024"/>
+        <image name="hospital-icon.png" width="128" height="128"/>
         <image name="menu" width="22" height="22"/>
         <image name="news" width="1024" height="1024"/>
         <image name="wishlist" width="1024" height="1024"/>

@@ -5,7 +5,8 @@ workspace 'ObjCVoiceQuickstart'
 
 abstract_target 'TwilioVoice' do
   pod 'TwilioVoice', '=2.0.0-beta8'
-
+  pod 'ApiAI'
+  pod 'MBProgressHUD'
   target 'ObjCVoiceQuickstart' do
     project 'ObjCVoiceQuickstart.xcproject'
   end

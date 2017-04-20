@@ -10,9 +10,12 @@
 
 @interface User : NSObject
 
-@property(nonatomic,readwrite) NSString * userId;
-@property(nonatomic,readwrite)NSString * token;
-@property(nonatomic,readwrite)NSString * domain;
+@property(nonatomic,readwrite) NSString * userName;
+@property(nonatomic,readwrite) NSString * firstName;
+@property(nonatomic,readwrite) NSString * lastName;
+@property(nonatomic,readwrite) NSString * location;
+@property(nonatomic,readwrite) NSString * password;
+@property(nonatomic,readwrite) NSNumber * age;
 
 +(User *)getUser;
 

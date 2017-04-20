@@ -9,11 +9,12 @@
 #import "SWRevealViewController.h"
 #import "User.h"
 #import "LoadingAnimationView.h"
+#define RAND_FROM_TO(min, max) (min + arc4random_uniform(max - min + 1))
 @import AVFoundation;
 @import PushKit;
 @import TwilioVoice;
 
-static NSString *const kYourServerBaseURLString = @"https://a8f960f1.ngrok.io";
+static NSString *const kYourServerBaseURLString = @"https://f3b6540f.ngrok.io";
 static NSString *const kAccessTokenEndpoint = @"/accessToken";
 
 @interface ViewController () <PKPushRegistryDelegate, TVONotificationDelegate, TVOCallDelegate, AVAudioPlayerDelegate>
@@ -28,6 +29,10 @@ static NSString *const kAccessTokenEndpoint = @"/accessToken";
 
 @property (nonatomic, weak) IBOutlet UIButton *placeCallButton;
 @property (nonatomic, strong) UIAlertController* incomingAlertController;
+@property (weak, nonatomic) IBOutlet UILabel *name;
+@property (weak, nonatomic) IBOutlet UILabel *location;
+@property (weak, nonatomic) IBOutlet UILabel *geocodelbl;
+@property (weak, nonatomic) IBOutlet UILabel *doclbl;
 
 @property (nonatomic, strong) AVAudioPlayer *ringtonePlayer;
 typedef void (^RingtonePlaybackCallback)(void);
@@ -42,7 +47,17 @@ typedef void (^RingtonePlaybackCallback)(void);
 - (void)viewDidLoad {
     [super viewDidLoad];
     User *user = User.getUser;
-    NSLog(@"%@",user.userId);
+    NSArray *doctors = @[@"Dr.X", @"Dr.Y", @"Dr.Z"];
+    NSLog(@"Welcome %@",user.userName);
+    [_name setText:[[user.firstName stringByAppendingString: @" "] stringByAppendingString: user.lastName ]];
+    //[_location setText:[[NSString stringWithFormat:@"GeoLocation :"] stringByAppendingString: user.location ]];
+    
+    int i = RAND_FROM_TO(0,2);
+    _location.text = user.location;
+    _doclbl.text= doctors[i];
+    int loc1 = RAND_FROM_TO(40, 45);
+    int loc2 = RAND_FROM_TO(70, 90);
+    [_geocodelbl setText:[[[NSString stringWithFormat:@"(%d", loc1] stringByAppendingString: @"," ] stringByAppendingString: [NSString stringWithFormat:@"%d)", loc2] ]];
     UIColor *color =  [UIColor colorWithRed:2.0f/255.0f
                                       green:168.0f/255.0f
                                        blue:218.0f/255.0f
@@ -65,7 +80,9 @@ typedef void (^RingtonePlaybackCallback)(void);
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
 }
-
+- (NSInteger)randomValueBetween:(NSInteger)min and:(NSInteger)max {
+    return (NSInteger)(min + arc4random_uniform(max - min + 1));
+}
 - (NSString *)fetchAccessToken {
     NSString *accessTokenURLString = [kYourServerBaseURLString stringByAppendingString:kAccessTokenEndpoint];
 

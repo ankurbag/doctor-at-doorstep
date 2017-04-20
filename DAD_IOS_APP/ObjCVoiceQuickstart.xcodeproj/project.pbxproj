@@ -10,24 +10,23 @@
 		2459FDCB1D83664300917CA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2459FDCA1D83664300917CA9 /* main.m */; };
 		2459FDCE1D83664300917CA9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2459FDCD1D83664300917CA9 /* AppDelegate.m */; };
 		2459FDD11D83664300917CA9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2459FDD01D83664300917CA9 /* ViewController.m */; };
-		2459FDD41D83664300917CA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2459FDD21D83664300917CA9 /* Main.storyboard */; };
 		2459FDD61D83664300917CA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2459FDD51D83664300917CA9 /* Assets.xcassets */; };
 		2459FDD91D83664300917CA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2459FDD71D83664300917CA9 /* LaunchScreen.storyboard */; };
 		24BA34291D87431000B0B4F7 /* TwilioLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 24BA34281D87431000B0B4F7 /* TwilioLogo.png */; };
 		8F1A927A1DF7E96700609990 /* disconnect.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8F1A92771DF7E96700609990 /* disconnect.wav */; };
 		8F1A927B1DF7E96700609990 /* incoming.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8F1A92781DF7E96700609990 /* incoming.wav */; };
 		8F1A927C1DF7E96700609990 /* outgoing.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8F1A92791DF7E96700609990 /* outgoing.wav */; };
-		940BFE6F1EA5CBB5005C17E8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 940BFE6D1EA5CBB5005C17E8 /* Default.png */; };
-		940BFE701EA5CBB5005C17E8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 940BFE6E1EA5CBB5005C17E8 /* Default@2x.png */; };
 		940BFE741EA5D222005C17E8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 940BFE731EA5D222005C17E8 /* Images.xcassets */; };
 		94219F801EA446FC00FE5AF8 /* LoginControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94219F7F1EA446FC00FE5AF8 /* LoginControllerViewController.m */; };
 		94219F841EA4470700FE5AF8 /* LoadingAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94219F821EA4470700FE5AF8 /* LoadingAnimationView.m */; };
 		94219F851EA4470700FE5AF8 /* LoadingAnimationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94219F831EA4470700FE5AF8 /* LoadingAnimationView.xib */; };
 		94219F901EA4471C00FE5AF8 /* InviteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94219F891EA4471C00FE5AF8 /* InviteViewController.m */; };
-		94219F911EA4471C00FE5AF8 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94219F8B1EA4471C00FE5AF8 /* MainViewController.m */; };
 		94219F991EA4473200FE5AF8 /* SidebarTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94219F961EA4473200FE5AF8 /* SidebarTableViewController.m */; };
 		94219F9A1EA4473200FE5AF8 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94219F981EA4473200FE5AF8 /* SWRevealViewController.m */; };
 		94219F9D1EA4478E00FE5AF8 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 94219F9C1EA4478E00FE5AF8 /* User.m */; };
+		945F294E1EA8553700C28779 /* Emergency3_750x1334.png in Resources */ = {isa = PBXBuildFile; fileRef = 945F294D1EA8553700C28779 /* Emergency3_750x1334.png */; };
+		945F29501EA96E4900C28779 /* hospital-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 945F294F1EA96E4900C28779 /* hospital-icon.png */; };
+		946A6B221EA749CC00B76C9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 946A6B201EA749CC00B76C9B /* Main.storyboard */; };
 		9C4288FC5CA60F4922C9B007 /* libPods-TwilioVoice-ObjCVoiceQuickstart.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C283C595EC185ADF5AC4C7D /* libPods-TwilioVoice-ObjCVoiceQuickstart.a */; };
 /* End PBXBuildFile section */
 
@@ -39,7 +38,6 @@
 		2459FDCD1D83664300917CA9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2459FDCF1D83664300917CA9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		2459FDD01D83664300917CA9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2459FDD31D83664300917CA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2459FDD51D83664300917CA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2459FDD81D83664300917CA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2459FDDA1D83664300917CA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,8 +49,6 @@
 		8F1A92771DF7E96700609990 /* disconnect.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = disconnect.wav; sourceTree = "<group>"; };
 		8F1A92781DF7E96700609990 /* incoming.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = incoming.wav; sourceTree = "<group>"; };
 		8F1A92791DF7E96700609990 /* outgoing.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = outgoing.wav; sourceTree = "<group>"; };
-		940BFE6D1EA5CBB5005C17E8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Assets.xcassets/Default.png; sourceTree = "<group>"; };
-		940BFE6E1EA5CBB5005C17E8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Assets.xcassets/Default@2x.png"; sourceTree = "<group>"; };
 		940BFE731EA5D222005C17E8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		94219F7E1EA446FC00FE5AF8 /* LoginControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginControllerViewController.h; sourceTree = "<group>"; };
 		94219F7F1EA446FC00FE5AF8 /* LoginControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginControllerViewController.m; sourceTree = "<group>"; };
@@ -61,14 +57,39 @@
 		94219F831EA4470700FE5AF8 /* LoadingAnimationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingAnimationView.xib; sourceTree = "<group>"; };
 		94219F881EA4471C00FE5AF8 /* InviteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InviteViewController.h; sourceTree = "<group>"; };
 		94219F891EA4471C00FE5AF8 /* InviteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InviteViewController.m; sourceTree = "<group>"; };
-		94219F8A1EA4471C00FE5AF8 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		94219F8B1EA4471C00FE5AF8 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		94219F951EA4473200FE5AF8 /* SidebarTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarTableViewController.h; sourceTree = "<group>"; };
 		94219F961EA4473200FE5AF8 /* SidebarTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarTableViewController.m; sourceTree = "<group>"; };
 		94219F971EA4473200FE5AF8 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		94219F981EA4473200FE5AF8 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		94219F9B1EA4478E00FE5AF8 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		94219F9C1EA4478E00FE5AF8 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		945F294D1EA8553700C28779 /* Emergency3_750x1334.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Emergency3_750x1334.png; path = Assets.xcassets/Emergency3_750x1334.png; sourceTree = "<group>"; };
+		945F294F1EA96E4900C28779 /* hospital-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "hospital-icon.png"; path = "ObjCVoiceQuickstart/Assets.xcassets/hospital-icon.png"; sourceTree = SOURCE_ROOT; };
+		946A6B211EA749CC00B76C9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ObjCVoiceQuickstart/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		946A6B231EA8165E00B76C9B /* App_Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = App_Icon.png; path = Assets.xcassets/App_Icon.png; sourceTree = "<group>"; };
+		946A6B261EA8175A00B76C9B /* App_Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = App_Icon.png; sourceTree = "<group>"; };
+		946A6B271EA8175A00B76C9B /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		946A6B291EA8175A00B76C9B /* App_Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = App_Icon.png; sourceTree = "<group>"; };
+		946A6B2A1EA8175A00B76C9B /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		946A6B2B1EA8175A00B76C9B /* Icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40.png"; sourceTree = "<group>"; };
+		946A6B2C1EA8175A00B76C9B /* Icon-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@3x.png"; sourceTree = "<group>"; };
+		946A6B2D1EA8175A00B76C9B /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		946A6B2E1EA8175A00B76C9B /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@3x.png"; sourceTree = "<group>"; };
+		946A6B2F1EA8175A00B76C9B /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		946A6B301EA8175A00B76C9B /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		946A6B311EA8175A00B76C9B /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
+		946A6B321EA8175A00B76C9B /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
+		946A6B331EA8175A00B76C9B /* Icon-83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-83.5@2x.png"; sourceTree = "<group>"; };
+		946A6B341EA8175A00B76C9B /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		946A6B351EA8175A00B76C9B /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		946A6B361EA8175A00B76C9B /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		946A6B371EA8175A00B76C9B /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		946A6B381EA8175A00B76C9B /* Icon-Small@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@3x.png"; sourceTree = "<group>"; };
+		946A6B391EA8175A00B76C9B /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		946A6B3A1EA8175A00B76C9B /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		946A6B3C1EA8175A00B76C9B /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		946A6B3E1EA8175A00B76C9B /* App_Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = App_Icon.png; sourceTree = "<group>"; };
+		946A6B3F1EA8175A00B76C9B /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +107,7 @@
 		2459FDBD1D83664300917CA9 = {
 			isa = PBXGroup;
 			children = (
+				946A6B201EA749CC00B76C9B /* Main.storyboard */,
 				2459FDC81D83664300917CA9 /* ObjCVoiceQuickstart */,
 				8F1A92761DF7E96700609990 /* Ringtones */,
 				2459FDC71D83664300917CA9 /* Products */,
@@ -108,11 +130,14 @@
 				94219F7B1EA4463500FE5AF8 /* Models */,
 				94219F7A1EA4462C00FE5AF8 /* Controllers */,
 				24BA34241D87269500B0B4F7 /* ObjCVoiceQuickstart.entitlements */,
-				2459FDD21D83664300917CA9 /* Main.storyboard */,
 				24BA34281D87431000B0B4F7 /* TwilioLogo.png */,
 				2459FDD51D83664300917CA9 /* Assets.xcassets */,
-				940BFE6D1EA5CBB5005C17E8 /* Default.png */,
-				940BFE6E1EA5CBB5005C17E8 /* Default@2x.png */,
+				945F294D1EA8553700C28779 /* Emergency3_750x1334.png */,
+				946A6B251EA8175A00B76C9B /* App_Icon.imageset */,
+				946A6B281EA8175A00B76C9B /* AppIcon.appiconset */,
+				946A6B3B1EA8175A00B76C9B /* AppIcon.dataset */,
+				946A6B3D1EA8175A00B76C9B /* AppIcon.imageset */,
+				946A6B231EA8165E00B76C9B /* App_Icon.png */,
 				2459FDD71D83664300917CA9 /* LaunchScreen.storyboard */,
 				2459FDDA1D83664300917CA9 /* Info.plist */,
 				940BFE731EA5D222005C17E8 /* Images.xcassets */,
@@ -186,8 +211,6 @@
 			children = (
 				2459FDCF1D83664300917CA9 /* ViewController.h */,
 				2459FDD01D83664300917CA9 /* ViewController.m */,
-				94219F8A1EA4471C00FE5AF8 /* MainViewController.h */,
-				94219F8B1EA4471C00FE5AF8 /* MainViewController.m */,
 			);
 			name = CallScreen;
 			sourceTree = "<group>";
@@ -219,6 +242,62 @@
 				94219F891EA4471C00FE5AF8 /* InviteViewController.m */,
 			);
 			name = ChatScreen;
+			sourceTree = "<group>";
+		};
+		946A6B251EA8175A00B76C9B /* App_Icon.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				945F294F1EA96E4900C28779 /* hospital-icon.png */,
+				946A6B261EA8175A00B76C9B /* App_Icon.png */,
+				946A6B271EA8175A00B76C9B /* Contents.json */,
+			);
+			name = App_Icon.imageset;
+			path = Assets.xcassets/App_Icon.imageset;
+			sourceTree = "<group>";
+		};
+		946A6B281EA8175A00B76C9B /* AppIcon.appiconset */ = {
+			isa = PBXGroup;
+			children = (
+				946A6B291EA8175A00B76C9B /* App_Icon.png */,
+				946A6B2A1EA8175A00B76C9B /* Contents.json */,
+				946A6B2B1EA8175A00B76C9B /* Icon-40.png */,
+				946A6B2C1EA8175A00B76C9B /* Icon-40@3x.png */,
+				946A6B2D1EA8175A00B76C9B /* Icon-60@2x.png */,
+				946A6B2E1EA8175A00B76C9B /* Icon-60@3x.png */,
+				946A6B2F1EA8175A00B76C9B /* Icon-72.png */,
+				946A6B301EA8175A00B76C9B /* Icon-72@2x.png */,
+				946A6B311EA8175A00B76C9B /* Icon-76.png */,
+				946A6B321EA8175A00B76C9B /* Icon-76@2x.png */,
+				946A6B331EA8175A00B76C9B /* Icon-83.5@2x.png */,
+				946A6B341EA8175A00B76C9B /* Icon-Small-50.png */,
+				946A6B351EA8175A00B76C9B /* Icon-Small-50@2x.png */,
+				946A6B361EA8175A00B76C9B /* Icon-Small.png */,
+				946A6B371EA8175A00B76C9B /* Icon-Small@2x.png */,
+				946A6B381EA8175A00B76C9B /* Icon-Small@3x.png */,
+				946A6B391EA8175A00B76C9B /* Icon.png */,
+				946A6B3A1EA8175A00B76C9B /* Icon@2x.png */,
+			);
+			name = AppIcon.appiconset;
+			path = Assets.xcassets/AppIcon.appiconset;
+			sourceTree = "<group>";
+		};
+		946A6B3B1EA8175A00B76C9B /* AppIcon.dataset */ = {
+			isa = PBXGroup;
+			children = (
+				946A6B3C1EA8175A00B76C9B /* Contents.json */,
+			);
+			name = AppIcon.dataset;
+			path = Assets.xcassets/AppIcon.dataset;
+			sourceTree = "<group>";
+		};
+		946A6B3D1EA8175A00B76C9B /* AppIcon.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				946A6B3E1EA8175A00B76C9B /* App_Icon.png */,
+				946A6B3F1EA8175A00B76C9B /* Contents.json */,
+			);
+			name = AppIcon.imageset;
+			path = Assets.xcassets/AppIcon.imageset;
 			sourceTree = "<group>";
 		};
 		BA1056EA4B6DA67F30E5B4CF /* Pods */ = {
@@ -264,7 +343,7 @@
 				TargetAttributes = {
 					2459FDC51D83664300917CA9 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = QYQ73LMG25;
+						DevelopmentTeam = G64G278AP5;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
@@ -301,14 +380,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2459FDD91D83664300917CA9 /* LaunchScreen.storyboard in Resources */,
-				940BFE6F1EA5CBB5005C17E8 /* Default.png in Resources */,
-				940BFE701EA5CBB5005C17E8 /* Default@2x.png in Resources */,
 				8F1A927C1DF7E96700609990 /* outgoing.wav in Resources */,
 				940BFE741EA5D222005C17E8 /* Images.xcassets in Resources */,
+				946A6B221EA749CC00B76C9B /* Main.storyboard in Resources */,
 				94219F851EA4470700FE5AF8 /* LoadingAnimationView.xib in Resources */,
 				2459FDD61D83664300917CA9 /* Assets.xcassets in Resources */,
+				945F294E1EA8553700C28779 /* Emergency3_750x1334.png in Resources */,
 				24BA34291D87431000B0B4F7 /* TwilioLogo.png in Resources */,
-				2459FDD41D83664300917CA9 /* Main.storyboard in Resources */,
+				945F29501EA96E4900C28779 /* hospital-icon.png in Resources */,
 				8F1A927B1DF7E96700609990 /* incoming.wav in Resources */,
 				8F1A927A1DF7E96700609990 /* disconnect.wav in Resources */,
 			);
@@ -373,7 +452,6 @@
 				2459FDD11D83664300917CA9 /* ViewController.m in Sources */,
 				2459FDCE1D83664300917CA9 /* AppDelegate.m in Sources */,
 				94219F801EA446FC00FE5AF8 /* LoginControllerViewController.m in Sources */,
-				94219F911EA4471C00FE5AF8 /* MainViewController.m in Sources */,
 				2459FDCB1D83664300917CA9 /* main.m in Sources */,
 				94219F901EA4471C00FE5AF8 /* InviteViewController.m in Sources */,
 				94219F9D1EA4478E00FE5AF8 /* User.m in Sources */,
@@ -385,20 +463,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2459FDD21D83664300917CA9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2459FDD31D83664300917CA9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2459FDD71D83664300917CA9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				2459FDD81D83664300917CA9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		946A6B201EA749CC00B76C9B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				946A6B211EA749CC00B76C9B /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -500,9 +578,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = QYQ73LMG25;
+				DEVELOPMENT_TEAM = G64G278AP5;
 				INFOPLIST_FILE = ObjCVoiceQuickstart/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.twilio.ObjCVoiceQuickstart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -515,9 +593,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = QYQ73LMG25;
+				DEVELOPMENT_TEAM = G64G278AP5;
 				INFOPLIST_FILE = ObjCVoiceQuickstart/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.twilio.ObjCVoiceQuickstart;
 				PRODUCT_NAME = "$(TARGET_NAME)";

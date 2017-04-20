@@ -25,6 +25,7 @@ static NSString *const kAccessTokenEndpoint = @"/accessToken";
 @property (nonatomic, strong) CXProvider *callKitProvider;
 @property (nonatomic, strong) CXCallController *callKitCallController;
 
+
 @property (nonatomic, weak) IBOutlet UIImageView *iconView;
 @property (nonatomic, assign, getter=isSpinning) BOOL spinning;
 

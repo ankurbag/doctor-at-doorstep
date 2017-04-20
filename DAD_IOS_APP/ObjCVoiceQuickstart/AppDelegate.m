@@ -6,6 +6,8 @@
 //
 
 #import "AppDelegate.h"
+#import <ApiAI/ApiAI.h>
+#import <ApiAI/AIDefaultConfiguration.h>
 
 @import TwilioVoice;
 
@@ -17,7 +19,14 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     NSLog(@"Twilio Voice Version: %@", [[TwilioVoice sharedInstance] version]);
     [self configureUserNotifications];
+    ApiAI *apiai = [ApiAI sharedApiAI];
     
+    id <AIConfiguration> configuration = [[AIDefaultConfiguration alloc] init];
+    
+    configuration.clientAccessToken = @"363f57a4420641b18ecc0abe6985d64c";
+    
+    apiai.configuration = configuration;
+
     return YES;
 }
 
